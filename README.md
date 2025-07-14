@@ -13,7 +13,7 @@
 |------|------------|
 | **Local‑first** | Works entirely on your laptop with **Bun 1.2+**, **Temporalite**, and optional GPUs. |
 | **Pluggable Connectors** | RSS, YouTube, LinkedIn, Git and more—drop‑in modules based on the Airbyte spec. |
-| **Deterministic Pipelines** | Temporal workflows + Nx hashing for resumable, cache‑friendly runs. |
+| **Deterministic Pipelines** | Temporal workflows for resumable, cache‑friendly runs. |
 | **Multi‑runtime Kernels** | Swap heavy lifting between Python, Rust/Wasmtime or AssemblyScript WebAssembly. |
 | **Fine‑tuning Hub** | Train via OpenAI, local Hugging Face PEFT, or your own Ollama server—all share one manifest. |
 | **Human‑friendly UX** | Plain‑English progress, actionable errors, visual dashboards & markdown Kanban board. |
@@ -57,7 +57,7 @@ $ bun cli train openai --model gpt-3.5-turbo --dataset datasets/demo.jsonl
                                           Model Registry (HF, OpenAI, Ollama)
 ```
 
-Workflows are orchestrated by **Temporal** (or Temporalite locally) while Nx handles computation‑caching and project graph.
+Workflows are orchestrated by **Temporal** (or Temporalite locally).
 
 ---
 

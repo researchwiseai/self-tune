@@ -11,26 +11,18 @@
     "packages/*"
   ],
   "scripts": {
-    "nx": "nx",
-    "start": "nx serve",
-    "build": "nx build",
-    "test": "nx test",
-    "lint": "ESLINT_USE_FLAT_CONFIG=true nx lint",
-    "format": "nx format:write",
-    "dev:stack": "docker compose up"
+    "dev:stack": "docker compose up",
+    "test": "vitest",
+    "lint": "ESLINT_USE_FLAT_CONFIG=true eslint . --ext .ts,.tsx,.js,.jsx",
+    "format": "prettier --write ."
   },
   "devDependencies": {
-    "@nrwl/eslint-plugin-nx": "19.6.0",
-    "@nrwl/js": "19.6.0",
-    "@nrwl/vite": "19.6.0",
-    "@nrwl/workspace": "19.6.0",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@typescript-eslint/parser": "^6.4.0",
     "backlog.md": "^1.3.1",
     "eslint": "^8.40.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "nx": "^21.2.3",
     "prettier": "^2.8.8",
     "typescript": "^5.1.0",
     "vitest": "^3.2.4"
