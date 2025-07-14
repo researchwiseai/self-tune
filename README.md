@@ -91,7 +91,7 @@ packages/
 
 We welcome PRs big & small!  Start by reading the [contrib guide](CONTRIBUTING.md) and picking an open Story in `.planning/stories/`.
 
-* Run `bun test` before committing.
+* Run `bun run test` before committing.
 * Follow Conventional Commits (`feat:`, `fix:`...).
 * All code is linted & formatted via ESLint + Prettier.
 

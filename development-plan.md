@@ -15,9 +15,9 @@ Below is the **updated, Bun‑first development plan**.  Major changes from the 
 | ------------------------- | ----------------------- | --------------------------------------------- |
 | **Node.js**               | **22.17.0 (LTS “Jod”)** | Active LTS until Oct 2025, maint. to Apr 2027 |
 | **Bun**                   | **1.2.18**              | Released 3 July 2025                          |
-| **Nx**                    | **19.6**                | Bun support landed in 19.1                    |
+| **Nx**                    | **21.2**                | Bun support landed in 19.1                    |
 | **Python**                | **3.12.11**             | Latest maintenance release, June 2025         |
-| **Vitest**                | **3.0.0**               | Stable since Jan 2025 (4.x in beta)           |
+| **Vitest**                | **3.2.4**               | Stable since Jan 2025 (4.x in beta)           |
 | **GitHub Actions runner** | **2.326.0**             | Latest as of 10 July 2025                     |
 
 ---
@@ -151,7 +151,7 @@ The CLI auto‑detects `.wasm` plugins in `plugins/wasm/` and registers them as 
 
 - **GitHub Actions**
   - Matrix: `node:22-bun`, `os: ubuntu-latest, macos-latest`.
-  - Use **Vitest** for unit & integration tests (`bun test`).
+  - Use **Vitest** for unit & integration tests (`bun run test`).
   - Temporalite spun up in a service container.
   - Cache restoration via Nx’s remote cache.
 - **Docs** generated with Docusaurus and deployed via `actions/deploy-pages` to **GitHub Pages**.
