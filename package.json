@@ -20,7 +20,7 @@
     "dev:stack": "docker compose up"
   },
   "devDependencies": {
-    "@nrwl/eslint-plugin-nx": "19.6.0",
+    "@nrwl/eslint-plugin-nx": "19.8.4",
     "@nrwl/js": "19.6.0",
     "@nrwl/vite": "19.6.0",
     "@nrwl/workspace": "19.6.0",
