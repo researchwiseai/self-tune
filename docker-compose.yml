@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  temporalite:
+    image: ghcr.io/temporalio/temporalite:latest
+    command: start --ephemeral --address 0.0.0.0:7233 --ui
+    ports:
+      - '7233:7233'
+    depends_on:
+      - postgres
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_PASSWORD: temporal
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
