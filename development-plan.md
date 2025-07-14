@@ -151,7 +151,7 @@ The CLI auto‑detects `.wasm` plugins in `plugins/wasm/` and registers them as 
 
 - **GitHub Actions**
   - Matrix: `node:22-bun`, `os: ubuntu-latest, macos-latest`.
-  - Use **Vitest** for unit & integration tests (`bun test`).
+  - Use **Vitest** for unit & integration tests (`bun run test`).
   - Temporalite spun up in a service container.
   - Cache restoration via Nx’s remote cache.
 - **Docs** generated with Docusaurus and deployed via `actions/deploy-pages` to **GitHub Pages**.
