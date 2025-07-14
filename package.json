@@ -16,18 +16,18 @@
     "format": "nx format:write"
   },
   "devDependencies": {
-    "nx": "19.6.0",
-    "@nrwl/workspace": "19.6.0",
+    "@nrwl/eslint-plugin-nx": "19.6.0",
     "@nrwl/js": "19.6.0",
     "@nrwl/vite": "19.6.0",
-    "@nrwl/eslint-plugin-nx": "19.6.0",
-    "typescript": "^5.1.0",
+    "@nrwl/workspace": "19.6.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
     "eslint": "^8.40.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "@typescript-eslint/parser": "^6.4.0",
-    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "nx": "^21.2.3",
     "prettier": "^2.8.8",
-    "vitest": "3.0.0"
+    "typescript": "^5.1.0",
+    "vitest": "^3.2.4"
   }
 }

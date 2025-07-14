@@ -15,9 +15,9 @@ Below is the **updated, Bun‑first development plan**.  Major changes from the 
 | ------------------------- | ----------------------- | --------------------------------------------- |
 | **Node.js**               | **22.17.0 (LTS “Jod”)** | Active LTS until Oct 2025, maint. to Apr 2027 |
 | **Bun**                   | **1.2.18**              | Released 3 July 2025                          |
-| **Nx**                    | **19.6**                | Bun support landed in 19.1                    |
+| **Nx**                    | **21.2**                | Bun support landed in 19.1                    |
 | **Python**                | **3.12.11**             | Latest maintenance release, June 2025         |
-| **Vitest**                | **3.0.0**               | Stable since Jan 2025 (4.x in beta)           |
+| **Vitest**                | **3.2.4**               | Stable since Jan 2025 (4.x in beta)           |
 | **GitHub Actions runner** | **2.326.0**             | Latest as of 10 July 2025                     |
 
 ---
