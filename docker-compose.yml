@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  temporalite:
+    image: temporalio/temporalite:latest
+    ports:
+      - "7233:7233"
+    volumes:
+      - temporalite_data:/var/lib/temporalite
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: selftune
+      POSTGRES_PASSWORD: selftune
+      POSTGRES_DB: selftune
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
+  temporalite_data:
