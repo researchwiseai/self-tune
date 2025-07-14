@@ -1,0 +1,13 @@
+site_name: Self-Tune
+site_url: https://your-org.github.io/self-tune
+repo_url: https://github.com/your-org/self-tune
+nav:
+  - Home: index.md
+plugins:
+  - search
+theme:
+  name: mkdocs
+  palette:
+    - scheme: default
+      primary: indigo
+
