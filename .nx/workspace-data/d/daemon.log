@@ -1,0 +1,11 @@
+[NX Daemon Server] - 2025-07-14T13:11:59.490Z - Started listening on: /tmp/ab66f58a8ae15d7a38c5/d.sock
+[NX Daemon Server] - 2025-07-14T13:11:59.491Z - [WATCHER]: Subscribed to changes within: /home/will/Documents/Business/wise/repos/self-tune (native)
+[NX Daemon Server] - 2025-07-14T13:11:59.496Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-07-14T13:11:59.497Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-07-14T13:11:59.498Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-07-14T13:11:59.498Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2025-07-14T13:11:59.498Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2025-07-14T13:11:59.499Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-07-14T13:11:59.499Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-07-14T13:11:59.499Z - [WATCHER]: Stopping the watcher for /home/will/Documents/Business/wise/repos/self-tune (sources)
+[NX Daemon Server] - 2025-07-14T13:11:59.499Z - [WATCHER]: Stopping the watcher for /home/will/Documents/Business/wise/repos/self-tune (outputs)
