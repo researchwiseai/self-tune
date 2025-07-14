@@ -1,35 +1,50 @@
 {
   "version": "6.0",
-  "nxVersion": "19.6.0",
-  "deps": {
-    "nx": "19.6.0",
-    "@nrwl/workspace": "19.6.0",
-    "@nrwl/js": "19.6.0",
-    "@nrwl/vite": "19.6.0",
-    "@nrwl/eslint-plugin-nx": "19.6.0",
-    "typescript": "^5.1.0",
-    "eslint": "^8.40.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.8",
-    "vitest": "3.0.0"
-  },
+  "nxVersion": "21.2.3",
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
     "projectFileMap": {},
     "nonProjectFiles": [
       {
-        "file": ".eslintrc.json",
-        "hash": "12514236548302147110"
-      },
-      {
         "file": ".github/dependabot.yml",
         "hash": "3086540803864626921"
       },
       {
+        "file": ".github/workflows/docs.yml",
+        "hash": "11190370481140458894"
+      },
+      {
         "file": ".gitignore",
-        "hash": "14878661927024338283"
+        "hash": "185862012711403881"
+      },
+      {
+        "file": ".planning/README.md",
+        "hash": "7457860476634303336"
+      },
+      {
+        "file": ".planning/epics/EP-2025-07-self-hosted-web-ui.md",
+        "hash": "6774592025850768230"
+      },
+      {
+        "file": ".planning/kanban/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".planning/progress/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".planning/retrospectives/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".planning/stories/STY-042-start-web-ui.md",
+        "hash": "10567239461701875424"
+      },
+      {
+        "file": ".planning/tasks/TSK-221-scaffold-vite-spa.md",
+        "hash": "13982312869260909840"
       },
       {
         "file": ".prettierignore",
@@ -40,32 +55,56 @@
         "hash": "8994923872453898678"
       },
       {
+        "file": "AGENTS.md",
+        "hash": "11871435779977915769"
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "hash": "8967467036757757224"
+      },
+      {
         "file": "LICENSE",
         "hash": "12649885980860800067"
       },
       {
         "file": "README.md",
-        "hash": "3266912994841100439"
+        "hash": "16329369491745566742"
       },
       {
         "file": "bun.lock",
-        "hash": "17111457991021216537"
+        "hash": "5261089771178917063"
       },
       {
         "file": "development-plan.md",
-        "hash": "3396696515860979554"
+        "hash": "1190700167711874395"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "2894937894083349041"
+      },
+      {
+        "file": "docs/index.md",
+        "hash": "5691725027842388569"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "18234392620623064530"
       },
       {
         "file": "index.ts",
         "hash": "3537300263567248857"
       },
       {
+        "file": "mkdocs.yml",
+        "hash": "9461944387497516166"
+      },
+      {
         "file": "nx.json",
-        "hash": "5988153122040421975"
+        "hash": "13440271477002310002"
       },
       {
         "file": "package.json",
-        "hash": "10469204115193558070"
+        "hash": "18049972262586016399"
       },
       {
         "file": "tsconfig.base.json",

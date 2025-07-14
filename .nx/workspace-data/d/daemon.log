@@ -9,3 +9,60 @@
 [NX Daemon Server] - 2025-07-14T13:11:59.499Z - Closed a connection. Number of open connections: 0
 [NX Daemon Server] - 2025-07-14T13:11:59.499Z - [WATCHER]: Stopping the watcher for /home/will/Documents/Business/wise/repos/self-tune (sources)
 [NX Daemon Server] - 2025-07-14T13:11:59.499Z - [WATCHER]: Stopping the watcher for /home/will/Documents/Business/wise/repos/self-tune (outputs)
+[NX Daemon Server] - 2025-07-14T13:36:50.950Z - Started listening on: /tmp/ab66f58a8ae15d7a38c5/d.sock
+[NX Daemon Server] - 2025-07-14T13:36:50.951Z - [WATCHER]: Subscribed to changes within: /home/will/Documents/Business/wise/repos/self-tune (native)
+[NX Daemon Server] - 2025-07-14T13:36:50.955Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-07-14T13:36:50.955Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-07-14T13:36:50.956Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-07-14T13:36:50.957Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-07-14T13:36:51.055Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-07-14T13:36:51.056Z - [REQUEST]: 
+[NX Daemon Server] - 2025-07-14T13:36:51.056Z - [REQUEST]: 
+[NX Daemon Server] - 2025-07-14T13:36:51.060Z - Time taken for 'loadNxPlugins' 97.649926ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-07-14T13:36:51.073Z - Time taken for 'build-project-configs' 6.906064999999984ms
+[NX Daemon Server] - 2025-07-14T13:36:51.075Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-07-14T13:36:51.075Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2025-07-14T13:36:51.075Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-07-14T13:36:51.075Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-07-14T13:36:51.075Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 118. Response time: 0.
+[NX Daemon Server] - 2025-07-14T13:36:51.075Z - Time taken for 'total for creating and serializing project graph' 118.20397000000001ms
+[NX Daemon Server] - 2025-07-14T13:36:51.077Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-07-14T15:29:46.245Z - [WATCHER]: 18 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-07-14T15:29:46.247Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-07-14T15:29:46.350Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-07-14T15:29:46.350Z - [REQUEST]: docker-compose.yml,.github/workflows/docs.yml,CONTRIBUTING.md,nx.json,README.md,.planning/stories/STY-042-start-web-ui.md,.planning/tasks/TSK-221-scaffold-vite-spa.md,.planning/README.md,.planning/kanban/.gitkeep,eslint.config.js,mkdocs.yml,package.json,.planning/epics/EP-2025-07-self-hosted-web-ui.md,bun.lock,.planning/progress/.gitkeep,development-plan.md,.planning/retrospectives/.gitkeep,docs/index.md
+[NX Daemon Server] - 2025-07-14T15:29:46.350Z - [REQUEST]: .eslintrc.json
+[NX Daemon Server] - 2025-07-14T15:29:46.354Z - Time taken for 'hash changed files from watcher' 1.654746999964118ms
+
+ NX   Using `implicitDependencies` for global implicit dependencies configuration is no longer supported.
+
+Use "namedInputs" instead. You can run "nx repair" to automatically migrate your configuration.
+For more information about the usage of "namedInputs" see https://nx.dev/deprecated/global-implicit-dependencies#global-implicit-dependencies
+
+[NX Daemon Server] - 2025-07-14T15:29:46.358Z - Time taken for 'build-project-configs' 4.918171999976039ms
+[NX Daemon Server] - 2025-07-14T15:29:46.360Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-07-14T15:29:46.360Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-07-14T15:29:46.360Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-07-14T15:29:46.360Z - [SYNC]: scheduling: []
+[NX Daemon Server] - 2025-07-14T15:29:46.360Z - Time taken for 'total execution time for createProjectGraph()' 2.3462020000442863ms
+[NX Daemon Server] - 2025-07-14T15:32:10.968Z - [WATCHER]: Stopping the watcher for /home/will/Documents/Business/wise/repos/self-tune (sources)
+[NX Daemon Server] - 2025-07-14T15:32:10.968Z - [WATCHER]: Stopping the watcher for /home/will/Documents/Business/wise/repos/self-tune (outputs)
+[NX Daemon Server] - 2025-07-14T15:32:10.969Z - Server stopped because: "NX_VERSION_CHANGED"
+[NX v21.2.3 Daemon Server] - 2025-07-14T15:32:11.181Z - Started listening on: /tmp/ab66f58a8ae15d7a38c5/d.sock
+[NX v21.2.3 Daemon Server] - 2025-07-14T15:32:11.182Z - [WATCHER]: Subscribed to changes within: /home/will/Documents/Business/wise/repos/self-tune (native)
+[NX v21.2.3 Daemon Server] - 2025-07-14T15:32:11.183Z - Established a connection. Number of open connections: 1
+[NX v21.2.3 Daemon Server] - 2025-07-14T15:32:11.183Z - Established a connection. Number of open connections: 2
+[NX v21.2.3 Daemon Server] - 2025-07-14T15:32:11.184Z - Closed a connection. Number of open connections: 1
+[NX v21.2.3 Daemon Server] - 2025-07-14T15:32:11.185Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v21.2.3 Daemon Server] - 2025-07-14T15:32:11.185Z - Done responding to the client Shutdown initiated
+[NX v21.2.3 Daemon Server] - 2025-07-14T15:32:11.186Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX v21.2.3 Daemon Server] - 2025-07-14T15:32:11.186Z - Closed a connection. Number of open connections: 0
+[NX v21.2.3 Daemon Server] - 2025-07-14T15:32:11.186Z - [WATCHER]: Stopping the watcher for /home/will/Documents/Business/wise/repos/self-tune (sources)
+[NX v21.2.3 Daemon Server] - 2025-07-14T15:32:11.186Z - [WATCHER]: Stopping the watcher for /home/will/Documents/Business/wise/repos/self-tune (outputs)
+[NX v21.2.3 Daemon Server] - 2025-07-14T15:32:11.186Z - Server stopped because: "Request to shutdown"

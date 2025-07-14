@@ -10,6 +10,7 @@
         "@nrwl/workspace": "19.6.0",
         "@typescript-eslint/eslint-plugin": "^6.4.0",
         "@typescript-eslint/parser": "^6.4.0",
+        "backlog.md": "^1.3.1",
         "eslint": "^8.40.0",
         "eslint-config-prettier": "^8.8.0",
         "eslint-plugin-prettier": "^4.2.1",
@@ -500,6 +501,18 @@
     "babel-plugin-polyfill-regenerator": ["babel-plugin-polyfill-regenerator@0.6.5", "", { "dependencies": { "@babel/helper-define-polyfill-provider": "^0.6.5" }, "peerDependencies": { "@babel/core": "^7.4.0 || ^8.0.0-0 <8.0.0" } }, "sha512-ISqQ2frbiNU9vIJkzg7dlPpznPZ4jOiUQ1uSmB0fEHeowtN3COYRsXr/xexn64NpU13P06jc/L5TgiJXOgrbEg=="],
 
     "babel-plugin-transform-typescript-metadata": ["babel-plugin-transform-typescript-metadata@0.3.2", "", { "dependencies": { "@babel/helper-plugin-utils": "^7.0.0" } }, "sha512-mWEvCQTgXQf48yDqgN7CH50waTyYBeP2Lpqx4nNWab9sxEpdXVeKgfj1qYI2/TgUPQtNFZ85i3PemRtnXVYYJg=="],
+
+    "backlog.md": ["backlog.md@1.3.1", "", { "optionalDependencies": { "backlog.md-darwin-arm64": "1.3.1", "backlog.md-darwin-x64": "1.3.1", "backlog.md-linux-arm64": "1.3.1", "backlog.md-linux-x64": "1.3.1", "backlog.md-windows-x64": "1.3.1" }, "bin": { "backlog": "cli.js" } }, "sha512-fhjksdKkxWRC5qMhEkOLGXfQn8DR+ilQ1GdD+j8NrMXRWuS0ioNDddFzTf0azUtLdIc6q/LiKcu+zdgQlQR3rA=="],
+
+    "backlog.md-darwin-arm64": ["backlog.md-darwin-arm64@1.3.1", "", { "os": "darwin", "cpu": "arm64", "bin": { "backlog": "backlog" } }, "sha512-wb/lQ3GDboTQ+M05es6T/qrsCF4RfoQfG0+nF3vwmGvdsz8bRHSlMv7vEfRM4RXEzmiBVAI/3eQ6oXKs6SP2Zg=="],
+
+    "backlog.md-darwin-x64": ["backlog.md-darwin-x64@1.3.1", "", { "os": "darwin", "cpu": "x64", "bin": { "backlog": "backlog" } }, "sha512-g7U3Ue5k0/Bx9Rjz4+mj3QgTP0o51AQ9pTiJcE8iBnvG6KEjreQXSMvQyserBtfy2zjeGyFH46rDIdmLab18Fw=="],
+
+    "backlog.md-linux-arm64": ["backlog.md-linux-arm64@1.3.1", "", { "os": "linux", "cpu": "arm64", "bin": { "backlog": "backlog" } }, "sha512-iVLtiNL1cP9KcAm/bfxFyYr8yz7JkgWhYF1Fexl038ouzg0rABOWuLkdpDjnKBalIwduOgeXqU4Cs9DjKkEgrg=="],
+
+    "backlog.md-linux-x64": ["backlog.md-linux-x64@1.3.1", "", { "os": "linux", "cpu": "x64", "bin": { "backlog": "backlog" } }, "sha512-HfkVUgMW7aNS+XN4HgRGpACX+CTtAvh5/ty7F4W20qiqFlmAeVampL8lzJXO1WOdCHhwAb4m5LuKsW45+15hyg=="],
+
+    "backlog.md-windows-x64": ["backlog.md-windows-x64@1.3.1", "", { "os": "win32", "cpu": "x64", "bin": { "backlog": "backlog.exe" } }, "sha512-4w58j6h3oG7jeybQ4xBZRKKvAy/UypL0XtawrCnn0v3Cg73+ULGyaneXFVwuUFxpWrTPgkyHYdfSE8E3tkAolQ=="],
 
     "balanced-match": ["balanced-match@1.0.2", "", {}, "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw=="],
 
