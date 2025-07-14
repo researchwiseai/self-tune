@@ -30,7 +30,7 @@ $ git clone https://github.com/your‑org/self-tune && cd self-tune
 $ bun install
 
 # 3. Bootstrap Temporalite & Postgres (Docker Compose)
-$ bun run dev:stack
+$ bun run dev:stack      # starts Temporalite on :7233 and Postgres on :5432
 
 # 4. Run first ingestion demo (example blog RSS)
 $ bun cli ingest rss https://yourblog.com/rss.xml

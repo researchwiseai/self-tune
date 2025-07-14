@@ -15,8 +15,9 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "lint": "ESLINT_USE_FLAT_CONFIG=true bun x eslint . --max-warnings 0",
-    "format": "nx format:write"
+    "lint": "ESLINT_USE_FLAT_CONFIG=true nx lint",
+    "format": "nx format:write",
+    "dev:stack": "docker compose up"
   },
   "devDependencies": {
     "@nrwl/eslint-plugin-nx": "19.6.0",
