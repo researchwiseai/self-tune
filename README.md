@@ -94,7 +94,10 @@ We welcome PRs big & small!  Start by reading the [contrib guide](CONTRIBUTING.m
 * Run `bun run test` before committing.
 * Follow Conventional Commits (`feat:`, `fix:`...).
 * All code is linted & formatted via ESLint + Prettier.
-* Generate the Kanban board with `bun x backlog init .planning --out .planning/kanban`.
+* Generate the Kanban board with `bun x backlog init .planning`.
+  The command walks you through a short setup (auto commit, remote ops, etc.).
+  Accept the defaults to persist `backlog/config.yml`, which pins `.planning` as
+  the project root.
 
 ---
 
